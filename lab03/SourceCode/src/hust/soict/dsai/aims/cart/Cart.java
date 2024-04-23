@@ -65,12 +65,14 @@ public class Cart {
 		}
 	}
 	//
-	public float totalCost() {
+	public float totalCost(boolean print) {
 		float totalCost=0;
 		int count = 1;
 		for(int i=0;i<MAX_NUMBER_ORDERED;i++) {
 			if(itemsOrdered[i]!=null) {
+				if(print) {
 				System.out.println(count + "   " + itemsOrdered[i].getTitle() + "   " + itemsOrdered[i].getCost());
+				}
 				count += 1;
 				totalCost += itemsOrdered[i].getCost();
 			}
@@ -81,22 +83,26 @@ public class Cart {
 		
 	}
 	//
+	
+	//
 	public void print() {
 		System.out.println("***********************CART***********************");
 		System.out.println("Ordered Items:");
-		for(int i = 0; i <= qtyOrdered; i++) {
-			System.out.println(i + ".DVD - " + itemsOrdered[i].getTitle() + " - " + itemsOrdered[i].getCategory() + " - " + itemsOrdered[i].getDirector() + " - " + itemsOrdered[i].getLength() + ":"  +  itemsOrdered[i].getCost() + " $");
+		for(int i = 0; i < qtyOrdered; i++) {
+			int id = i+1;
+			System.out.println(id + ".DVD - " + itemsOrdered[i].getTitle() + " - " + itemsOrdered[i].getCategory() + " - " + itemsOrdered[i].getDirector() + " - " + itemsOrdered[i].getLength() + ":"  +  itemsOrdered[i].getCost() + " $");
 		}
-		System.out.println("Total cost: " + totalCost());
+		System.out.println("Total cost: " + totalCost(false));
 		System.out.println("**************************************************");
 	}
 	//
 	public void search(String title) {
 		System.out.println("***********************CART***********************");
 		System.out.println("Searching result:");
-		for(int i = 0; i <= qtyOrdered; i++) {
+		for(int i = 0; i < qtyOrdered; i++) {
+			int id = i+1;
 			if(itemsOrdered[i].getTitle() == title) {
-				System.out.println(i + ".DVD - " + itemsOrdered[i].getTitle() + " - " + itemsOrdered[i].getCategory() + " - " + itemsOrdered[i].getDirector() + " - " + itemsOrdered[i].getLength() + ":"  +  itemsOrdered[i].getCost() + " $");
+				System.out.println(id + ".DVD - " + itemsOrdered[i].getTitle() + " - " + itemsOrdered[i].getCategory() + " - " + itemsOrdered[i].getDirector() + " - " + itemsOrdered[i].getLength() + ":"  +  itemsOrdered[i].getCost() + " $");
 			}
 		}
 		
@@ -106,8 +112,8 @@ public class Cart {
 	public void search(int id) {
 		System.out.println("***********************CART***********************");
 		System.out.println("Searching result:");
-		int i = id;
-		System.out.println(i + ".DVD - " + itemsOrdered[i].getTitle() + " - " + itemsOrdered[i].getCategory() + " - " + itemsOrdered[i].getDirector() + " - " + itemsOrdered[i].getLength() + ":"  +  itemsOrdered[i].getCost() + " $");
+		int i = id-1;
+		System.out.println(id + ".DVD - " + itemsOrdered[i].getTitle() + " - " + itemsOrdered[i].getCategory() + " - " + itemsOrdered[i].getDirector() + " - " + itemsOrdered[i].getLength() + ":"  +  itemsOrdered[i].getCost() + " $");
 			
 		
 		

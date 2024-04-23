@@ -16,7 +16,7 @@ public class Aims {
 		anOrder.addDigitalVideoDisc(dvd3);
 		
 		System.out.println("Your cart:");
-		System.out.println("Total cost is: " + anOrder.totalCost());
+		System.out.println("Total cost is: " + anOrder.totalCost(true));
 		System.out.println("-----------------------------------------");
 		anOrder.removeDigitalVideoDisc(dvd1);
 
