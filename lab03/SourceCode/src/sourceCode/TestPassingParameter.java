@@ -1,6 +1,4 @@
-package hust.soict.dsai.test.disc;
-
-import hust.soict.dsai.aims.media.DigitalVideoDisc;
+package sourceCode;
 
 public class TestPassingParameter {
 
@@ -10,7 +8,7 @@ public class TestPassingParameter {
 		DigitalVideoDisc cinderellaDVD = new DigitalVideoDisc("Cinderella");
 		
 		swap(jungleDVD,cinderellaDVD);
-	    System.out.println("jungle DVD title: " + jungleDVD.getTitle());
+		System.out.println("jungle DVD title: " + jungleDVD.getTitle());
 		System.out.println("cinderella DVD title: " + cinderellaDVD.getTitle());
 		
 		changeTitle(jungleDVD,cinderellaDVD.getTitle());
