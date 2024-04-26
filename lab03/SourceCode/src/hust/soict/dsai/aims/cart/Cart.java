@@ -1,8 +1,8 @@
 package hust.soict.dsai.aims.cart;
 
 import java.util.ArrayList;
-
-
+import java.util.Collections;
+import java.util.Comparator;
 
 import hust.soict.dsai.aims.media.Media;
 
@@ -46,10 +46,11 @@ public class Cart {
 		}
 	}
 	//
-	public void print() {
+	public void print(Comparator<Media> c) {
 		System.out.println("***********************CART***********************");
 		System.out.println("Ordered Items:");
 		int id = 0;
+		Collections.sort(itemsOrdered, c);
 		for(Media m: itemsOrdered) {
 			id+=1;
 			System.out.println(id + ".DVD - " + m.getTitle() + " - " + m.getCategory() + " - " + m.getDirector() + " - " + m.getLength() + ":"  +  m.getCost() + " $");
