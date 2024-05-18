@@ -51,4 +51,7 @@ public class DigitalVideoDisc extends Disc implements Playable{
 		}
 		return str.toString();
 	}
+	public String getType() {
+		return "Digital";
+	}
 }

@@ -1,5 +1,5 @@
 package hust.soict.dsai.store;
-import hust.soict.dsai.aims.screen.manager.StoreManagerScreen;
+
 import hust.soict.dsai.aims.media.DigitalVideoDisc;
 
 public class StoreTest {
@@ -12,7 +12,5 @@ public class StoreTest {
 		DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladin","Animation",18.99f);
 		store.addMedia(dvd3);
 		store.removeMedia(dvd3);
-		
-		StoreManagerScreen sc = new StoreManagerScreen(store);
 	}
 }

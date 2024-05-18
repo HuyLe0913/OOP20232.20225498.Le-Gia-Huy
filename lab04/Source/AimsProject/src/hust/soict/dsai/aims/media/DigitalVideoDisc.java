@@ -1,25 +1,25 @@
 package hust.soict.dsai.aims.media;
 
-public class Disc extends Media{
+public class DigitalVideoDisc extends Disc implements Playable{
 	
-	public Disc(String title, String category, String director, float cost) {
+	public DigitalVideoDisc(String title, String category, String director, float cost) {
 		super();
 		this.setTitle(title);
 		this.setCategory(category);
 		this.setDirector(director);
 		this.setCost(cost);
 	}
-	public Disc(String title, String category, float cost) {
+	public DigitalVideoDisc(String title, String category, float cost) {
 		super();
 		this.setTitle(title);
 		this.setCategory(category);
 		this.setCost(cost);
 	}
-	public Disc(String title) {
+	public DigitalVideoDisc(String title) {
 		super();
 		this.setTitle(title);
 	}
-	public Disc(String title, String category, String director, int length, float cost) {
+	public DigitalVideoDisc(String title, String category, String director, int length, float cost) {
 		super();
 		this.setTitle(title);
 		this.setCategory(category);
@@ -27,16 +27,20 @@ public class Disc extends Media{
 		this.setLength(length);
 		this.setCost(cost);
 	}
-	private int length;
 	private String director;
-	public Disc() {
-		// TODO Auto-generated constructor stub
+	private int length;
+
+	public String getDirector() {
+		return director;
 	}
 	public int getLength() {
 		return length;
 	}
-	public String getDirector() {
-		return director;
+	@Override
+	public void play() {
+		// TODO Auto-generated method stub
+		System.out.println("Playing DVD: " + this.getTitle());
+		System.out.println("DVD length: " + this.getLength());
 	}
 	public String toString() {
 		String info[] = {"Title: " + getTitle(),"Category: " + getCategory(),"Director: " + getDirector(),"Length: " + getLength(),"Cost: " + getCost()} ;
@@ -47,14 +51,4 @@ public class Disc extends Media{
 		}
 		return str.toString();
 	}
-	public void setLength(int length) {
-		this.length = length;
-	}
-	public void setDirector(String director) {
-		this.director = director;
-	}
-	public String getType() {
-		return "Disc";
-	}
-
 }

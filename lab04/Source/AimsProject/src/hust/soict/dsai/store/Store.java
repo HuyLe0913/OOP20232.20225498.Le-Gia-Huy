@@ -15,6 +15,7 @@ public class Store {
 	public void removeMedia(Media media) {
 		itemsInStore.remove(media);
 	}
+
 	public ArrayList<Media> getItemsInStore() {
 		return itemsInStore;
 	}

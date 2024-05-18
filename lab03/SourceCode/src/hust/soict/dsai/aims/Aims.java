@@ -19,7 +19,7 @@ public class Aims {
 		System.out.println("Total cost is: " + anOrder.totalCost(true));
 		System.out.println("-----------------------------------------");
 		anOrder.removeMedia(dvd1);
-
+		
 	}
 
 }
