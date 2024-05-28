@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf8dd8d8-64a8-444e-a028-7dc455b63990" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/SourceCode/src/hust/soict/dsai/aims/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/SourceCode/src/hust/soict/dsai/aims/Aims.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode/src/hust/soict/dsai/aims/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/SourceCode/src/hust/soict/dsai/aims/cart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode/src/hust/soict/dsai/aims/media/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/SourceCode/src/hust/soict/dsai/aims/media/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode/src/hust/soict/dsai/aims/media/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/SourceCode/src/hust/soict/dsai/aims/media/DigitalVideoDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode/src/hust/soict/dsai/aims/media/Disc.java" beforeDir="false" afterPath="$PROJECT_DIR$/SourceCode/src/hust/soict/dsai/aims/media/Disc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode/src/hust/soict/dsai/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/SourceCode/src/hust/soict/dsai/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode/src/hust/soict/dsai/store/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SourceCode/src/hust/soict/dsai/store/StoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode/src/hust/soict/dsai/test/cart/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SourceCode/src/hust/soict/dsai/test/cart/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/SourceCode/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode/src/sourceCode/Aims.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode/src/sourceCode/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode/src/sourceCode/DigitalVideoDisc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode/src/sourceCode/TestPassingParameter.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2gRNIHxlvQs1OYpxtVNPjq3JLLN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Aims.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "release/lab04",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Hoctap/OOP20232.20225498.Le-Gia-Huy/lab03",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf8dd8d8-64a8-444e-a028-7dc455b63990" name="Changes" comment="" />
+      <created>1715656349130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715656349130</updated>
+      <workItem from="1715656350188" duration="227000" />
+      <workItem from="1715656801626" duration="5000" />
+      <workItem from="1715656876931" duration="4000" />
+      <workItem from="1715673363629" duration="47000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
